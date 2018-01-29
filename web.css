@@ -1,0 +1,116 @@
+body{
+  height: 100%;
+}
+ul{
+  display: flex;
+  position: absolute;
+  z-index: 5;
+  transform: translate(50%,50%)
+}
+
+ul li{
+  list-style: none;
+}
+
+ul li a {
+  width: 30%;
+  height: 30%;
+  text-align: center;
+  line-height: 100px;
+  margin: 0 10px;
+  font-size: 160%;
+  position: relative;
+  overflow: hidden;
+}
+
+ul li a .fa{
+  position: relative;
+  color: #fbfcfd;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: bold;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e2e3e6;
+}
+
+nav{
+  position: fixed;
+  right: 0%;
+  top:2%;
+}
+ 
+ .navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+.mount {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+#Position1 {
+  position: static;
+  top:  0%;
+  left: 0%;
+  z-index: 1;
+}
+#Position2 {
+  position: fixed;
+  top: 12%;
+  z-index: 2;
+}
+
+.about {
+  position: static;
+  top: 0%;
+  max-width: 100%;
+  background-color: #ff6600;
+  z-index: 3;
+  padding: 12%;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  object-fit: contain;
+}
+
+h1{
+  text-align: center;
+  letter-spacing: -1px;
+  margin-bottom: 6%;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 6%;
+  color:  #FFFFE0;
+
+}
+
+p{
+  text-align: justify;
+  margin-bottom: 6%;
+}
+
+.project{
+  position: static;
+  top: 0%;
+  max-width: 100%;
+  background-color: #B22222;
+  z-index: 3;
+  padding: 12%;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  object-fit: contain;
+}
