@@ -1,30 +1,22 @@
 body{
   height: 100%;
 }
-ul{
-  display: flex;
-  position: absolute;
-  z-index: 5;
-  transform: translate(50%,50%)
-}
 
 ul li{
   list-style: none;
+
 }
 
 ul li a {
-  width: 30%;
-  height: 30%;
+  width: 10%;
+  height: 10%;
   text-align: center;
-  line-height: 100px;
   margin: 0 10px;
   font-size: 160%;
-  position: relative;
   overflow: hidden;
 }
 
 ul li a .fa{
-  position: relative;
   color: #fbfcfd;
 }
 
@@ -45,7 +37,7 @@ nav{
   top:2%;
 }
  
- .navbar {
+.navbar {
   background-color: transparent;
   background: transparent;
   border-color: transparent;
@@ -114,3 +106,67 @@ p{
   line-height: normal;
   object-fit: contain;
 }
+
+.contacts{
+  position: static;
+  max-width: 100%;
+  background-color: #2F4F4F;
+  z-index: 3;
+  padding: 2%;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  object-fit: contain;
+}
+
+.contacts_icons{
+  position: static;
+  max-width: 100%;
+  min-height: 25vh;
+  background-color: #2F4F4F;
+  z-index: 2;
+}
+
+@media(max-width:639px){
+  ul{
+    display: flex;
+    top: 80vw;
+    left: 19vh;
+    position: absolute;
+  }
+
+  .collapse{
+    top: 93vw;
+    left: 15vh;
+    position: absolute;
+    z-index: 2;
+  }
+  .collapsing{
+    top: 93vw;
+    left: 15vh;
+    position: absolute;
+    z-index: 2;
+  }
+}
+@media(min-width:640px){
+  ul{
+    display: flex;
+    top: 38vw;
+    right: 19vh;
+    position: absolute;
+  }
+  .collapse{
+    top: 43vw;
+    right: 19vh;
+    position: absolute;
+    z-index: 2;
+  }
+  .collapsing{
+    top: 43vw;
+    right: 19vh;
+    position: absolute;
+    z-index: 2;
+  }
+}
+
